@@ -1,0 +1,30 @@
+{
+  "name": "cooked-egg",
+  "version": "1.0.0",
+  "description": "cooked-egg-description",
+  "main": "main.js",
+  "scripts": {
+    "test": "egg-bin test",
+    "dev": "egg-bin dev --port 3000"
+  },
+  "author": "tim",
+  "license": "ISC",
+  "dependencies": {
+    "await-event": "^2.0.0",
+    "co-wrap-all": "^1.0.0",
+    "debug": "^2.2.0",
+    "egg": "^1.0.0",
+    "egg-mock": "^3.7.0",
+    "egg-redis": "^1.0.1",
+    "egg-sequelize": "^2.0.2",
+    "egg-validate": "^1.0.0",
+    "mockjs": "^1.0.1-beta3",
+    "mongoose": "^4.8.6",
+    "mysql": "^2.13.0",
+    "path-template": "0.0.0",
+    "pify": "^2.3.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^3.2.1"
+  }
+}

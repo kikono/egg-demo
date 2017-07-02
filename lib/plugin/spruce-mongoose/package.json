@@ -1,0 +1,141 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "egg-mongoose@^1.1.1",
+        "scope": null,
+        "escapedName": "egg-mongoose",
+        "name": "egg-mongoose",
+        "rawSpec": "^1.1.1",
+        "spec": ">=1.1.1 <2.0.0",
+        "type": "range"
+      },
+      "D:\\object\\egg"
+    ]
+  ],
+  "_cnpm_publish_time": 1489240724135,
+  "_from": "egg-mongoose@>=1.1.1 <2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "egg-mongoose@1.1.1",
+  "_inCache": true,
+  "_location": "/egg-mongoose",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/egg-mongoose-1.1.1.tgz_1489240723883_0.04409220488741994"
+  },
+  "_npmUser": {
+    "name": "dead_horse",
+    "email": "dead_horse@qq.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "egg-mongoose@^1.1.1",
+    "scope": null,
+    "escapedName": "egg-mongoose",
+    "name": "egg-mongoose",
+    "rawSpec": "^1.1.1",
+    "spec": ">=1.1.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/egg-mongoose/download/egg-mongoose-1.1.1.tgz",
+  "_shasum": "f1c7f3d3ddae76cef186e36a2861d9b54e097058",
+  "_shrinkwrap": null,
+  "_spec": "egg-mongoose@^1.1.1",
+  "_where": "D:\\object\\egg",
+  "bugs": {
+    "url": "https://github.com/eggjs/egg/issues"
+  },
+  "ci": {
+    "version": "6, 7"
+  },
+  "dependencies": {
+    "await-event": "^2.0.0",
+    "mongoose": "^4.8.6"
+  },
+  "description": "egg mongoose plugin",
+  "devDependencies": {
+    "autod": "^2.7.1",
+    "egg": "^1.0.0-rc.3",
+    "egg-bin": "^2.4.0",
+    "egg-mock": "^3.1.2",
+    "eslint": "^3.17.1",
+    "eslint-config-egg": "^3.2.0",
+    "supertest": "^3.0.0",
+    "webstorm-disable-index": "^1.1.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "f1c7f3d3ddae76cef186e36a2861d9b54e097058",
+    "size": 3202,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/egg-mongoose/download/egg-mongoose-1.1.1.tgz"
+  },
+  "eggPlugin": {
+    "name": "mongoose"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "files": [
+    "index.js",
+    "app.js",
+    "agent.js",
+    "config",
+    "app",
+    "lib"
+  ],
+  "gitHead": "ef4e1c89d3dc967db6283187df74b26b961e2715",
+  "homepage": "https://github.com/eggjs/egg-mongoose#readme",
+  "keywords": [
+    "egg",
+    "egg-model",
+    "mongoose",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "maintainers": [
+    {
+      "name": "dead_horse",
+      "email": "dead_horse@qq.com"
+    },
+    {
+      "name": "eggjs",
+      "email": "fengmk2+eggjs@gmail.com"
+    },
+    {
+      "name": "fengmk2",
+      "email": "fengmk2@gmail.com"
+    },
+    {
+      "name": "jtyjty99999",
+      "email": "jtyjty99999@126.com"
+    },
+    {
+      "name": "popomore",
+      "email": "sakura9515@gmail.com"
+    }
+  ],
+  "name": "egg-mongoose",
+  "optionalDependencies": {},
+  "publish_time": 1489240724135,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggjs/egg-mongoose.git"
+  },
+  "scripts": {
+    "autod": "autod",
+    "ci": "npm run lint && npm run cov",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test"
+  },
+  "version": "1.1.1"
+}
